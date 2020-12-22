@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="layout.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="button link-button" onclick="myFunction()">Thời Khóa Biểu Sinh Viên</button>
+        <div id="DIV" class="dp">
+        <table style="width:50%">
+        <tr>
+            <th colspan="5">Time Table</th>
+        </tr>
+        <tr>
+            <th color="black"> Monday</th>
+            <th color="black"> Tuesday</th>
+            <th color="black"> Westday</th>
+            <th color="black"> Thursday</th>
+            <th color="black"> Friday</th>
+        </tr>
+        <tr>
+            <td>Artificial intelligence</td>
+            <td>Software Engineering</td>
+            <td>Operating system</td>
+            <td>Programming in Python</td>
+            <td>Linux</td>
+        </tr>
+        <tr>
+            <td>Artificial intelligence</td>
+            <td>Software Engineering</td>
+            <td>Operating system</td>
+            <td>Programming in Python</td>
+            <td>Linux</td>
+        </tr>
+        <tr>
+            <td>Artificial intelligence</td>
+            <td>Software Engineering</td>
+            <td>Operating system</td>
+            <td>Programming in Python</td>
+            <td>Linux</td>
+        </tr>
+        <tr>
+            <td>Artificial intelligence</td>
+            <td>Software Engineering</td>
+            <td>Operating system</td>
+            <td>Programming in Python</td>
+            <td>Linux</td>
+        </tr>
+    </table>
+    </div>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("DIV");
+        if (x.style.display === "block") {
+        x.style.display = "none";
+        } else {
+        x.style.display = "block";
+        }
+    }
+    </script>
+
+</body>
+</html>
